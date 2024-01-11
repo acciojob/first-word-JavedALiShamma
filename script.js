@@ -6,7 +6,8 @@ function firstWord(s) {
 	}
 	let i=0;
 	let ch=s.charAt(i);
-	while(ch!='' && i>=s.length){
+	while(ch!='' && i!=s.length-1){
+		ch=s.charAt(i);
 		str=str+ch;
 		i++;
 	}
@@ -15,5 +16,5 @@ function firstWord(s) {
 
 // Do not change the code below
 
-const s = prompt("Enter String:");
-alert(firstWord(s));
+// const s = prompt("Enter String:");
+// alert(firstWord(s));
