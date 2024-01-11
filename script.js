@@ -1,6 +1,6 @@
 function firstWord(s) {
   // your code here
-	String str="";
+	let str="";
 	if(s.length==0){
 		return str; 
 	}
