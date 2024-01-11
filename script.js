@@ -1,5 +1,16 @@
 function firstWord(s) {
   // your code here
+	String str="";
+	if(s.length==0){
+		return ''; 
+	}
+	let i=0;
+	let ch=s.charAt(i);
+	while(ch!='' && i>=s.length){
+		str=str+ch;
+		i++;
+	}
+	return str;
 }
 
 // Do not change the code below
