@@ -2,7 +2,7 @@ function firstWord(s) {
   // your code here
 	String str="";
 	if(s.length==0){
-		return ''; 
+		return str; 
 	}
 	let i=0;
 	let ch=s.charAt(i);
